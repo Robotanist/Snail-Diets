@@ -17,7 +17,7 @@ barplot.default(values, xlab = "SAMPLE", ylab = "PERCENT")
 # terrain colors
 barplot.default(values, xlab = "", ylab = "PERCENT", names.arg=colnames(fungi[-1]), las=2,  cex.names = 0.45, col= terrain.colors(1184))
 
-# fucking legend, skip it
+# legend, skip it
 legend("right", 
        legend = fungi$species, 
        pch = 20, 
